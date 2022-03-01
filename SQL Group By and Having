@@ -172,7 +172,7 @@ GROUP BY
 HAVING
     AVG(pinalty) > 30000;
 
--- Mini Quiz
+-- Menampilkan no. produk, rata-rata  pinalty dan jumlah id costumer
 SELECT
     product_id,
     AVG(pinalty),
